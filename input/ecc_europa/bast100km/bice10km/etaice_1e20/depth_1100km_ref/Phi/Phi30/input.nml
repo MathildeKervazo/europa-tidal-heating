@@ -1,0 +1,15 @@
+&input
+ bice=10e3
+ etaice=1.D20
+ ecc_in=0.0094
+ ecc_loop=.false.
+ bast=100e3
+ rtop=1100e3
+ imelt_min=300
+ imelt_max=300
+ imelt_step=1
+ map=.false.
+ hrad=0.
+ file_eta='../../../../../../../data/eta_radius_21Gyr.dat'
+ file_rmelt='../../../../../../../data/rmelt_radius_21Gyr_bast100km.dat'
+/

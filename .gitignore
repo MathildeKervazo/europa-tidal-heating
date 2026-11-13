@@ -1,0 +1,19 @@
+.DS_Store
+*.mod
+*.o
+src/Forced_tide
+
+# outputs of the scripts
+work/
+work_figure_data/
+examples/reference_case/run/
+
+# generated figures (the reference PDFs of the paper are in figures/reference_pdf/)
+figures/*.pdf
+
+__pycache__/
+.ipynb_checkpoints/
+
+# sensitivity tests (calculation folders and binary)
+sensitivity_tests/runs/
+sensitivity_tests/src/Forced_tide
